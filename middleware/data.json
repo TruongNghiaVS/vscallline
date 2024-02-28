@@ -1,0 +1,1008 @@
+{
+   "typesdk":"5678910",
+   "_id":"60e40deddbf5d23b72fe0066",
+   "email":"ktpm489@gmail.com",
+   "facedata":{
+      "image_info":{
+         "width":480,
+         "height":640,
+         "url":"http://res.cloudinary.com/hobbg5cc2/image/upload/v1625558508/uploads/images/1625558504325.jpg"
+      },
+      "generalResult":{
+         "title":{
+            "en":"General Result",
+            "vi":"Kết quả tổng quan"
+         },
+         "data":[
+            {
+               "title":{
+                  "en":"Skin Age Detection",
+                  "vi":"Nhận diện tuổi da"
+               },
+               "descript":{
+                  "en":"Skin age does not necessarily reveal the user’s actual age, but is a great indicator of their health and lifestyle. If the skin age is older than the actual age, it is a sign that users should begin to change their daily routine and skin care.",
+                  "vi":"Tuổi da không nhất thiết tiết lộ tuổi thực của người dùng, nhưng là một chỉ số tuyệt vời về sức khỏe và lối sống của họ. Nếu tuổi da lớn hơn tuổi thực, đó là dấu hiệu để người dùng bắt đầu thay đổi các thói quen sinh hoạt và chăm sóc da của họ."
+               },
+               "data":[
+                  {
+                     "valueEN":"Skin Age: 32",
+                     "valueVI":"Tuổi da: 32",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinAge",
+                     "value":"32"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"Skin Type Identification",
+                  "vi":"Nhận diện các loại da"
+               },
+               "descript":{
+                  "en":"Having a beautiful skin begins with knowing your skin type. Scientifically speaking, there are four skin types: oily, dry, normal, and a combination of these three. We identify the skin type found on different areas of the face as well as specific problems that may arise.",
+                  "vi":"Nhận biết chính xác loại da của mình là bước đầu tiên trong việc chăm sóc da. Có bốn loại da cơ bản sau đây: da dầu, da khô, da thường và da hỗn hợp là sự kết hợp của ba loại da này. Chúng tôi xác định loại da được tìm thấy trên các vùng khác nhau của khuôn mặt cũng như các vấn đề cụ thể có thể phát sinh."
+               },
+               "data":[
+                  {
+                     "valueEN":"The number of oily highlight area: 5",
+                     "valueVI":"Vùng da dầu: 5",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinHighlight",
+                     "value":"5"
+                  },
+                  {
+                     "valueEN":"Skin Type: Oily",
+                     "valueVI":"Loại da: Da dầu",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinType",
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"Skin Tone Detection",
+                  "vi":"Nhận diện tông màu da"
+               },
+               "descript":{
+                  "en":"According to international standards, there are 40 different levels of skin tone: our technology can precisely detect the level of each individual user. Morever, we also provide the Pantone SkinTone color, which will help users to easily match and coordinate cosmetics to skin color.",
+                  "vi":"Theo tiêu chuẩn quốc tế, có 40 mức độ khác nhau của tông màu da: công nghệ của chúng tôi có thể phát hiện chính xác tông màu da của mỗi người dùng. Ngoài ra, chúng tôi còn cung cấp thông tin về cấp độ tông màu da theo bảng màu Pantone 110, giúp người dùng có thể dễ dàng hơn trong việc tìm ra những màu sắc phù hợp nhất với làn da của mình."
+               },
+               "data":[
+                  {
+                     "valueEN":"Skin Color Level: reddish",
+                     "valueVI":"Màu sắc của da: Ửng Đỏ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinColorHueDelta",
+                     "value":"2"
+                  },
+                  {
+                     "valueEN":"Level of skin tone brightness: Dark",
+                     "valueVI":"Độ sáng màu da: Ngăm Đen",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinColorLevel",
+                     "value":"5"
+                  },
+                  {
+                     "valueEN":"Level of skin tone according to Pantone: 91",
+                     "valueVI":"Cấp độ bản màu quốc tế: 91",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinLevel",
+                     "value":"91"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"Skin Mole Detection",
+                  "vi":"Nhận diện nốt ruồi"
+               },
+               "descript":{
+                  "en":"Skin moles are common, almost everyone has them. Knowing the difference between moles and other spots is vital for knowing which to pay more attention to.",
+                  "vi":"Nốt ruồi trên da là một tình trạng phổ biến mà hầu hết mọi người đều có. Phân biệt sự khác nhau giữa nốt ruồi và các vết nám và thâm khác trên da là điều cần thiết để có sự quan tâm đúng đắn cho từng loại."
+               },
+               "data":[
+                  {
+                     "valueEN":"Skin Mole: 1",
+                     "valueVI":"Nốt Ruồi: 1",
+                     "drawArr":[
+                        {
+                           "height":7.019953,
+                           "left":315.97235,
+                           "top":411.95517,
+                           "width":7.319828
+                        }
+                     ],
+                     "key":"SkinMole",
+                     "value":"1"
+                  }
+               ]
+            }
+         ]
+      },
+      "specialResult":{
+         "title":{
+            "en":"Partial Result",
+            "vi":"Kết quả từng phần"
+         },
+         "data":[
+            {
+               "title":{
+                  "en":"Signs of Aging Skin Detection",
+                  "vi":"Nhận diện các dấu hiệu Lão Hóa Da"
+               },
+               "descript":{
+                  "en":"After identifying different types of facial wrinkles including forehead wrinkles, crow's feet, eye wrinkles, smile lines, and fine lines around the eye, we are able to show users the level of impact and provide more reliable data according to their specific situation.",
+                  "vi":"Sau khi xác định các loại nếp nhăn khác nhau trên khuôn mặt bao gồm nếp nhăn trán, vết chân chim, nếp nhăn mắt, đường cười và nếp nhăn quanh mắt, chúng tôi có thể cho người dùng thấy mức độ tác động và cung cấp dữ liệu đáng tin cậy hơn tùy theo tình hình cụ thể của họ."
+               },
+               "data":[
+                  {
+                     "valueEN":"Skin Crows Feed Left: No",
+                     "valueVI":"Nhăn đuôi mắt trái: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinCrowsFeed_Left",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Crows Feed Right: Yes",
+                     "valueVI":"Nhăn đuôi mắt phải:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinCrowsFeed_Right",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin Eye Fine Line Score Left (0 -> 1): 0.2837 %",
+                     "valueVI":"Kết quả phân tích nhăn đuôi mắt trái: 0.2837 %",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinEyeFineLineScore_Left",
+                     "value":"0.002837"
+                  },
+                  {
+                     "valueEN":"Skin Eye Fine Line Score Right (0 -> 1): 0.3266 %",
+                     "valueVI":"Kết quả phân tích nhăn đuôi mắt phải: 0.3266 %",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinEyeFineLineScore_Right",
+                     "value":"0.003266"
+                  },
+                  {
+                     "valueEN":"Skin Eye Fine Line Left: No",
+                     "valueVI":"Nhăn trên mắt trái: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinEyeFineLine_Left",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Eye Fine Line Right: No",
+                     "valueVI":"Nhăn trên mắt phải: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinEyeFineLine_Right",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Eye Wrinkle Left: Yes",
+                     "valueVI":"Nhăn dưới mắt trái:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinEyeWrinkle_Left",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin Eye Wrinkle Left: Yes",
+                     "valueVI":"Nhăn dưới mắt phải:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinEyeWrinkle_Right",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin ForeHead Wrinkle: No",
+                     "valueVI":"Nhăn trên trán: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinForeHeadWrinkle",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Nasolabial Folds Left: Yes",
+                     "valueVI":"Nhăn cánh mũi trái:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinNasolabialFolds_Left",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin Nasolabial Folds Right: Yes",
+                     "valueVI":"Nhăn cách mũi phải:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinNasolabialFolds_Right",
+                     "value":"1"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"Acne And Skin Rosacea Detection",
+                  "vi":"Nhận diện mụn và mụn viêm đỏ"
+               },
+               "descript":{
+                  "en":"We can accurately identify symptoms of acne such as pimples, blackheads and acne vulgaris from mild to severe. Especially, with blackheads that would not normally be seen without some kind of magnification, our high-resolution blackhead detection technology can help locate even the most minute blackheads to ensure they have nowhere to hide.Rosacea is a long-term skin condition that causes redness and visible blood vessels in your face.And we can early detection of rosacea can help user to get an appropriate treatment before redness and swelling can get worse and might become permanent.",
+                  "vi":"Chúng tôi sẽ nhận diện được chính xác các triệu chứng của mụn, bao gồm mụn dầu đen, các nốt mụn và do mụn ở mức độ từ nhẹ đến nặng. Đặc biệt, với các nốt mụn đầu đen mà thông thường sẽ không thể nhìn thấy nếu không có một số loại phóng đại , công nghệ phát hiện mụn đầu đen có độ phân giải cao của chúng tôi sẽ giúp nhận diện được vị trí ngay cả những mụn đầu đen nhỏ nhất để đảm bảo chúng không có nơi nào để ẩn náu.Và Tình trạng Mụn viêm đỏ là một tổn thương da lâu dài gây ra sự mẫn đỏ và khiến các mạch máu nổi rõ trên khuôn mặt. Nhận diện sớm tình trạng Mụn viêm đỏ có thể giúp người dùng có những biện pháp điều trị kịp thời trước khi tình trạng chuyển biến nghiêm trọng và có thể trở thành vĩnh viễn."
+               },
+               "data":[
+                  {
+                     "valueEN":"The proportion of the area occupied by blackheads (0->1): 1.5564 %",
+                     "valueVI":"Tỷ lệ vùng da mặt bị mụn đầu đen (0->1): 1.5564 %",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"BlackHead_Area",
+                     "value":"0.015564"
+                  },
+                  {
+                     "valueEN":"The number of acne: 0",
+                     "valueVI":"Số lượng mụn: 0",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinAcne",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"The number of blackheads: 27",
+                     "valueVI":"Số lượng mụn đầu đen: 27",
+                     "drawArr":[
+                        {
+                           "height":3,
+                           "left":221,
+                           "top":288,
+                           "width":3
+                        },
+                        {
+                           "height":5,
+                           "left":248,
+                           "top":293,
+                           "width":2
+                        },
+                        {
+                           "height":2,
+                           "left":208,
+                           "top":296,
+                           "width":3
+                        },
+                        {
+                           "height":3,
+                           "left":248,
+                           "top":303,
+                           "width":1
+                        },
+                        {
+                           "height":2,
+                           "left":248,
+                           "top":320,
+                           "width":1
+                        },
+                        {
+                           "height":2,
+                           "left":261,
+                           "top":324,
+                           "width":1
+                        },
+                        {
+                           "height":2,
+                           "left":267,
+                           "top":327,
+                           "width":2
+                        },
+                        {
+                           "height":3,
+                           "left":192,
+                           "top":330,
+                           "width":1
+                        },
+                        {
+                           "height":2,
+                           "left":236,
+                           "top":331,
+                           "width":4
+                        },
+                        {
+                           "height":2,
+                           "left":229,
+                           "top":333,
+                           "width":3
+                        },
+                        {
+                           "height":2,
+                           "left":269,
+                           "top":333,
+                           "width":1
+                        },
+                        {
+                           "height":2,
+                           "left":269,
+                           "top":336,
+                           "width":1
+                        },
+                        {
+                           "height":1,
+                           "left":221,
+                           "top":346,
+                           "width":2
+                        },
+                        {
+                           "height":2,
+                           "left":265,
+                           "top":346,
+                           "width":3
+                        },
+                        {
+                           "height":2,
+                           "left":236,
+                           "top":347,
+                           "width":2
+                        },
+                        {
+                           "height":1,
+                           "left":239,
+                           "top":349,
+                           "width":2
+                        },
+                        {
+                           "height":1,
+                           "left":240,
+                           "top":351,
+                           "width":2
+                        },
+                        {
+                           "height":1,
+                           "left":185,
+                           "top":354,
+                           "width":2
+                        },
+                        {
+                           "height":2,
+                           "left":271,
+                           "top":355,
+                           "width":1
+                        },
+                        {
+                           "height":2,
+                           "left":193,
+                           "top":363,
+                           "width":4
+                        },
+                        {
+                           "height":2,
+                           "left":201,
+                           "top":363,
+                           "width":5
+                        },
+                        {
+                           "height":2,
+                           "left":257,
+                           "top":364,
+                           "width":2
+                        },
+                        {
+                           "height":1,
+                           "left":206,
+                           "top":367,
+                           "width":4
+                        },
+                        {
+                           "height":1,
+                           "left":252,
+                           "top":367,
+                           "width":2
+                        },
+                        {
+                           "height":1,
+                           "left":267,
+                           "top":367,
+                           "width":2
+                        },
+                        {
+                           "height":2,
+                           "left":186,
+                           "top":368,
+                           "width":2
+                        },
+                        {
+                           "height":1,
+                           "left":248,
+                           "top":368,
+                           "width":4
+                        }
+                     ],
+                     "key":"SkinBlackHeads",
+                     "value":"27"
+                  },
+                  {
+                     "valueEN":"The number of acne scar: 0",
+                     "valueVI":"Số lượng mụn viêm đỏ: 0",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPimple",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Rosacea Chin: Rosacea on the chin",
+                     "valueVI":"Mụn viêm đỏ - Cằm: Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinRosaceaChin",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin Rosacea Forehead: No rosacea on the forehead",
+                     "valueVI":"Mụn viêm đỏ - Trán: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinRosaceaForehead",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Rosacea Left Cheek: Rosacea on the left cheek",
+                     "valueVI":"Mụn viêm đỏ - Má trái: Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinRosaceaLeftcheek",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin Rosacea Nose : No rosacea around the nose\"",
+                     "valueVI":"Mụn viêm đỏ - Quanh mũi: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinRosaceaNose",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin Rosacea Right Cheek: Rosacea on the right cheek",
+                     "valueVI":"Mụn viêm đỏ - Má phải: Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinRosaceaRightcheek",
+                     "value":"1"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"Dark Circle Detection",
+                  "vi":"Nhận diện Quầng thâm mắt"
+               },
+               "descript":{
+                  "en":"In fact, the skin that surrounds your eyes is thinner and more delicate than that on the rest of your face, that's why  dark circles and puffines are more likely to occur. We can scientifically identify the type of dark circles (pigmented or vascular) as well as their level of impact.",
+                  "vi":"Trên thực tế, vùng da xung quanh mắt mỏng hơn vùng còn lại của da mặt, điều này khiến các tình trạng như quầng thâm và bọng mắt dễ xảy ra hơn. Chúng tôi sẽ nhận diện một cách khoa học các vấn đề về quầng thâm mà bạn đang gặp phải (do sắc tố hay do mạch máu) cũng như xác định mức độ nghiêm trọng của chúng."
+               },
+               "data":[
+                  {
+                     "valueEN":"Skin PandaEye Left: Yes",
+                     "valueVI":"Quầng thâm - mắt trái:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Left",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Left Artery: No",
+                     "valueVI":"Quầng thâm do mạch máu - Mắt trái: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Left_Artery",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Left Pigment: No",
+                     "valueVI":"Quầng thâm do sắc tố - Mắt Trái: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Left_Pigment",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Left Shadow: No",
+                     "valueVI":"Quầng thâm do Bọng Mắt Trái: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Left_Shadow",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Right: Yes",
+                     "valueVI":"Quầng thâm - mắt phải:  Có",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Right",
+                     "value":"1"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Right Artery: No",
+                     "valueVI":"Quầng thâm do mạch máu - Mắt phải: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Right_Artery",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Right Pigment: No",
+                     "valueVI":"Quầng thâm do sắc tố - Mắt Phải: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Right_Pigment",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Skin PandaEye Right Shadow: No",
+                     "valueVI":"Quầng thâm do Bọng Mắt Phải: Không",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinPandaEye_Right_Shadow",
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"Pore Detection",
+                  "vi":"Nhận diện các vấn đề do lỗ chân lông"
+               },
+               "descript":{
+                  "en":"Big pores are hard to detect, unless they are seen up close. Our high-resolution pore detection technology helps locate facial pores and address problems before they become noticeable .",
+                  "vi":"Lỗ chân lông to rất khó phát hiện, trừ khi nhìn cận cảnh. Vì vậy, công nghệ phát hiện lỗ chân lông to có độ phân giải cao của chúng tôi sẽ giúp xác định các lỗ chân lông trên khuôn mặt và giải quyết các vấn đề trước khi chúng trở nên đáng báo động."
+               },
+               "data":[
+                  {
+                     "valueEN":"Pores Between Brow Have: No",
+                     "valueVI":"Lỗ chân lông to giữa lông mày: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"PoresBetweenBrow_Have",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Pores Cheeks Left: No",
+                     "valueVI":"Lỗ chân lông to ở má trái: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"PoresCheeks_Left",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Pores Cheeks Right: No",
+                     "valueVI":"Lỗ chân lông to ở má phải: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"PoresCheeks_Right",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Pores Forehead Have: No",
+                     "valueVI":"Lỗ chân lông to trên trán: Không ",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"PoresForehead_Have",
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "title":{
+                  "en":"SkinSpot And Acne Scar Detection",
+                  "vi":"Nhận diện Đốm thâm nám và mụn viêm đỏ"
+               },
+               "descript":{
+                  "en":"Spots or dark spots, can be caused by acne scars, excessive sun exposure, or hormonal changes. We can precisely locate each spots on the user's face, thereby recommending appropriate skin treatments.",
+                  "vi":"Các đốm thâm nám có thể bắt nguồn từ việc tiếp xúc với ánh mặt trời, lão hoá, thay đổi hoormon hoặc do các vết thâm mụn để lại. Chúng tôi sẽ nhận diện chính xác vị trí cũng như số lượng các đốm thâm nám trên khuôn mặt của người dùng, từ đó đưa ra các liệu trình chăm sóc phù hợp cho từng trường hợp cụ thể."
+               },
+               "data":[
+                  {
+                     "valueEN":"The number of acne: 0",
+                     "valueVI":"Số lượng mụn: 0",
+                     "drawArr":[
+                        
+                     ],
+                     "key":"SkinAcne",
+                     "value":"0"
+                  },
+                  {
+                     "valueEN":"Number of SkinSpot: 25",
+                     "valueVI":" Số lượng Đốm thâm nám: 25",
+                     "drawArr":[
+                        {
+                           "height":4.23,
+                           "left":369.65,
+                           "top":146.64,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.23,
+                           "left":143.75,
+                           "top":345.44998,
+                           "width":4.05
+                        },
+                        {
+                           "height":3.525,
+                           "left":350.3,
+                           "top":366.6,
+                           "width":3.15
+                        },
+                        {
+                           "height":6.345,
+                           "left":112.25,
+                           "top":347.565,
+                           "width":6.3
+                        },
+                        {
+                           "height":2.82,
+                           "left":218.9,
+                           "top":274.245,
+                           "width":2.7
+                        },
+                        {
+                           "height":4.935,
+                           "left":282.34998,
+                           "top":310.905,
+                           "width":4.5
+                        },
+                        {
+                           "height":4.935,
+                           "left":367.84998,
+                           "top":315.13498,
+                           "width":4.95
+                        },
+                        {
+                           "height":3.525,
+                           "left":195.5,
+                           "top":47.235,
+                           "width":3.15
+                        },
+                        {
+                           "height":3.525,
+                           "left":300.8,
+                           "top":93.06,
+                           "width":3.6
+                        },
+                        {
+                           "height":3.525,
+                           "left":174.34999,
+                           "top":91.65,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.935,
+                           "left":93.35,
+                           "top":336.99,
+                           "width":4.5
+                        },
+                        {
+                           "height":4.935,
+                           "left":222.04999,
+                           "top":89.534996,
+                           "width":4.95
+                        },
+                        {
+                           "height":3.525,
+                           "left":227.9,
+                           "top":71.909996,
+                           "width":3.6
+                        },
+                        {
+                           "height":3.525,
+                           "left":280.55,
+                           "top":59.925,
+                           "width":3.6
+                        },
+                        {
+                           "height":3.525,
+                           "left":364.69998,
+                           "top":373.65,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.23,
+                           "left":292.69998,
+                           "top":332.75998,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.935,
+                           "left":105.5,
+                           "top":311.61,
+                           "width":4.95
+                        },
+                        {
+                           "height":7.05,
+                           "left":231.04999,
+                           "top":258.735,
+                           "width":6.3
+                        },
+                        {
+                           "height":4.23,
+                           "left":103.25,
+                           "top":376.47,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.935,
+                           "left":264.34998,
+                           "top":48.645,
+                           "width":4.95
+                        },
+                        {
+                           "height":4.23,
+                           "left":383.15,
+                           "top":315.84,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.23,
+                           "left":267.05,
+                           "top":180.48,
+                           "width":4.05
+                        },
+                        {
+                           "height":4.23,
+                           "left":225.2,
+                           "top":81.075,
+                           "width":3.6
+                        },
+                        {
+                           "height":4.935,
+                           "left":373.69998,
+                           "top":303.15,
+                           "width":4.95
+                        },
+                        {
+                           "height":4.935,
+                           "left":99.649994,
+                           "top":70.5,
+                           "width":4.05
+                        }
+                     ],
+                     "key":"SkinSpot",
+                     "value":"25"
+                  }
+               ]
+            }
+         ]
+      },
+      "generalConclusion":{
+         "title":{
+            "en":"General Conclusion",
+            "vi":"Kết luận tổng quan"
+         },
+         "data":[
+            {
+               "title":"1. Bảo vệ và chăm sóc",
+               "key":"1. Bảo vệ và chăm sóc",
+               "valueVI":"1. Bảo vệ và chăm sóc\nTrang bị kem chống nắng ít nhất là SPF 35 hoặc cao hơn.\nHãy đội mũ trở thành một phần của quần áo và đồ thể thao hàng ngày của bạn, đồng thời đeo kính râm để chống lại tia UV.\nChúng ta có thể giúp chống lại và thậm chí sửa chữa những tổn thương da hàng ngày bằng cách thoa một loại huyết thanh chống oxy hóa như vitamin C.",
+               "valueEN":"1. Bảo vệ và chăm sóc\nTrang bị kem chống nắng ít nhất là SPF 35 hoặc cao hơn.\nHãy đội mũ trở thành một phần của quần áo và đồ thể thao hàng ngày của bạn, đồng thời đeo kính râm để chống lại tia UV.\nChúng ta có thể giúp chống lại và thậm chí sửa chữa những tổn thương da hàng ngày bằng cách thoa một loại huyết thanh chống oxy hóa như vitamin C.",
+               "drawArr":[
+                  
+               ]
+            },
+            {
+               "title":"2. Thực hiện các lựa chọn lối sống lành mạnh, khi có thể",
+               "key":"2. Thực hiện các lựa chọn lối sống lành mạnh, khi có thể",
+               "valueVI":"2. Thực hiện các lựa chọn lối sống lành mạnh, khi có thể\nĂn một chế độ ăn uống lành mạnh\nGiảm lượng đường\nGiữ đủ nước\nGiảm uống rượu\nĐừng hút thuốc\nTập thể dục\nNghỉ ngơi\nGiảm căng thẳng",
+               "valueEN":"2. Thực hiện các lựa chọn lối sống lành mạnh, khi có thể\nĂn một chế độ ăn uống lành mạnh\nGiảm lượng đường\nGiữ đủ nước\nGiảm uống rượu\nĐừng hút thuốc\nTập thể dục\nNghỉ ngơi\nGiảm căng thẳng.",
+               "drawArr":[
+                  
+               ]
+            },
+            {
+               "valueEN":"Skin Age: 32",
+               "valueVI":"Tuổi da: 32",
+               "drawArr":[
+                  
+               ],
+               "key":"SkinAge",
+               "value":"32"
+            },
+            {
+               "valueEN":"Level of skin tone according to Pantone: 91",
+               "valueVI":"Cấp độ bản màu quốc tế: 91",
+               "drawArr":[
+                  
+               ],
+               "key":"SkinLevel",
+               "value":"91"
+            },
+            {
+               "valueEN":"Skin Mole: 1",
+               "valueVI":"Nốt Ruồi: 1",
+               "drawArr":[
+                  {
+                     "height":7.019953,
+                     "left":315.97235,
+                     "top":411.95517,
+                     "width":7.319828
+                  }
+               ],
+               "key":"SkinMole",
+               "value":"1"
+            },
+            {
+               "valueEN":"Skin Type: Oily",
+               "valueVI":"Loại da: Da dầu",
+               "drawArr":[
+                  
+               ],
+               "key":"SkinType",
+               "value":"0"
+            }
+         ]
+      },
+      "specialConclusion":{
+         "title":{
+            "en":"Partial Conclusion",
+            "vi":"Bảo vệ và chăm sóc"
+         },
+         "data":[
+            [
+               {
+                  "title":{
+                     "en":"Level 6",
+                     "vi":"Cấp độ 6"
+                  },
+                  "data":{
+                     "en":[
+                        "Severe cystic acne, or severe back acne, many nodular cystic lesions and scaring, permanent alteration of the dermis."
+                     ],
+                     "vi":[
+                        "Mụn trứng cá dạng nang nặng, tổn thương dạng nang nhiều nốt và đóng vảy, thay đổi vĩnh viễn lớp hạ bì."
+                     ]
+                  }
+               },
+               {
+                  "title":{
+                     "en":"Cause of Blackheads ",
+                     "vi":"Nguyên nhân Mụn đầu đen"
+                  },
+                  "data":{
+                     "en":[
+                        "Blackheads occur when a pore is clogged by a combination of sebum and dead skin cells. The top of the pore stays open, despite the rest of it being clogged. This results in the characteristic black color seen on the surface."
+                     ],
+                     "vi":[
+                        "Mụn đầu đen xảy ra khi lỗ chân lông bị tắc do sự kết hợp của bã nhờn và tế bào da chết. Phần trên cùng của lỗ chân lông vẫn mở, mặc dù phần còn lại của nó bị tắc nghẽn. Điều này dẫn đến màu đen đặc trưng nhìn thấy trên bề mặt."
+                     ]
+                  }
+               }
+            ],
+            [
+               {
+                  "title":{
+                     "en":"Level of skin spot && acne scar",
+                     "vi":"Mức độ đốm thâm nám và mụn viêm đỏ"
+                  },
+                  "data":{
+                     "en":[
+                        "Medium"
+                     ],
+                     "vi":[
+                        "Trung bình"
+                     ]
+                  }
+               },
+               {
+                  "title":{
+                     "en":"Coping and living with melasma (healthline.com)",
+                     "vi":"Phòng ngừa bệnh Nám da (vinmec.com)"
+                  },
+                  "data":{
+                     "en":[
+                        "While not all cases of melasma will clear up with treatment, there are things you can do to make sure the condition doesn’t get worse and to minimize the appearance of the discoloration. These include:",
+                        "·         using makeup to cover areas of discoloration",
+                        "·         taking prescribed medication",
+                        "·         wearing sunscreen every day with SPF 30",
+                        "·         wearing a wide-brimmed hat that shields or provides shade for your face",
+                        "·         Wearing protective clothing is especially important if you’ll be in the sun for an extended period of time."
+                     ],
+                     "vi":[
+                        "Việc điều trị nám da thường không đơn giản và khá tốn kém. Tuy nhiên, các biện pháp sau có thể giúp phòng ngừa các vấn đề tăng sắc tố da nói chung và nám da nói riêng.",
+                        "·         Tránh tiếp xúc với ánh nắng mặt trời từ 10h đến 15h:",
+                        "·         Bôi kem chống nắng:",
+                        "·         Che chắn làn da bằng các trang phục chống nắng:",
+                        "·         Chế độ dinh dưỡng:",
+                        "·         Sử dụng mỹ phẩm được kiểm định an toàn:",
+                        "·         Đi khám bác sĩ da liễu khi có các vấn đề trên da:"
+                     ]
+                  }
+               },
+               null
+            ]
+         ]
+      },
+      "hintResult":[
+         {
+            "sdktype":"1",
+            "level":"K1"
+         },
+         {
+            "sdktype":"2",
+            "level":"K2"
+         },
+         {
+            "sdktype":"3",
+            "level":"K3"
+         },
+         {
+            "sdktype":"4",
+            "level":"K4"
+         },
+         {
+            "level":"K5",
+            "sdktype":"1"
+         },
+         {
+            "level":"K6",
+            "sdktype":"6"
+         },
+         {
+            "level":"K7",
+            "sdktype":"2"
+         },
+         {
+            "level":"K8",
+            "sdktype":"1"
+         },
+         {
+            "level":"K9",
+            "sdktype":"2"
+         }
+      ]
+   },
+   "createdAt":"2021-07-06T08:01:49.495Z",
+   "updatedAt":"2021-07-06T08:01:49.495Z",
+   "__v":0
+}
