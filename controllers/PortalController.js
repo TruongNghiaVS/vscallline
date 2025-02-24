@@ -2,7 +2,7 @@
 
 const axios = require('axios');
 const Response = require('../helpers/Response')
-var ami = new require('asterisk-manager')('5038','127.0.0.1','admin','zAWc3uQ0WbGD', true);
+var ami = new require('asterisk-manager')('5038','42.115.94.180','admin','zAWc3uQ0WbGD', true);
 
 // In case of any connectiviy problems we got you coverd.
 ami.keepConnected();
